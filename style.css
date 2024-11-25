@@ -115,6 +115,7 @@ nav .fa-solid{
         display: block;
     }
     .nav-links{
+        overflow: hidden;
         position: absolute;
         background: #22C7B8;
         height: 100vh;
