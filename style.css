@@ -115,6 +115,7 @@ nav .fa-solid{
         display: block;
     }
     .nav-links{
+        display:none;
         overflow: hidden;
         position: absolute;
         background: #22C7B8;
