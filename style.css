@@ -112,10 +112,10 @@ nav .fa-solid{
     }
     .nav-links ul li{
         float: none;
-        display: block;
+        display:none;
+
     }
     .nav-links{
-        display:none;
         overflow: hidden;
         position: absolute;
         background: #22C7B8;
