@@ -114,12 +114,13 @@ nav .fa-solid{
         display: block;
     }
     .nav-links{
+        display: none;
         position: absolute;
         background: #22C7B8;
         height: 100vh;
         width: 200px;
         top:0;
-        right: 0;
+        right: 0px;
         text-align: left;
         z-index: 2;
         transition: 0.5s;
@@ -127,6 +128,7 @@ nav .fa-solid{
     }
 
     nav .fa-solid{
+        display: block;
         color: #fff;
         margin: 10px;
         font-size: 22px;
