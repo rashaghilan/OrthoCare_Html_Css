@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>OrthoCare Hospital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/f12438cf9f.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+        <section class="sub-header">
+        <nav>
+            <a herf="index.html"><img src="Logo/logo1.png" alt=""> </a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="">JOPS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+
+        </section>
+<!------------about us content-------->
+
+        <section class="about-us">
+          <div class="row">
+              <div class="about-col">
+                <h1> We provide the best care services in the world </h1>
+                <p>
+                  We are dedicated to being the global leaders in care services.
+Our mission is to provide unparalleled expertise and compassion.
+With cutting-edge facilities and personalized attention, we prioritize your well-being.
+Every individual deserves world-class care, and we deliver just that.
+Trust us to set the standard for excellence in healthcare.
+                </p>
+                <a href="" class="hero-btn green-btn">SHOW MORE</a>
+              </div>
+
+              <div class="about-col">
+                <img src="PIC/about.jpg" alt="" />
+              </div>
+          </div>
+
+        </section>
+
+
+<!-----Footer---->
+        <section class="Footer">
+          
+            <p>Location: 123 Health Ave, Wellness City, HC 45678 <br> Contact Us: Phone: 1-800-ORTHOCARE Email: info@orthocarehospital.com</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+
+            <p class="add">Made with Rasha <i class="fa-solid fa-heart"></i> </p>
+
+        </section>
+
+
+<!-----JavaScript for Toggle Menu----->
+<script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.display="block";
+        }
+        function hideMenu(){
+            navlinks.style.display="none";
+        }
+
+        </script>
+
+    </body>
+</html>
