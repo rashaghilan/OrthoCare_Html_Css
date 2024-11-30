@@ -496,3 +496,174 @@ p{
 .green-btn:hover{
   color: #fff;
 }
+
+.jobs-list-container{
+  max-width: 900px;
+  margin: 50px auto;
+
+}
+
+.jobs-list-container h2{
+  font-size: 30px;
+  border-left: 4px solid #22C7B8;
+  padding-left: 20px;
+
+}
+
+
+.jobs-list-container .jobs{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.jobs-list-container .job{
+  box-shadow:0 4px 24px -8px #4F6466;
+  padding: 24px;
+  border-radius: 16px ;
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  transition: all 400ms ease;
+}
+
+.jobs-list-container .jobs img{
+  width:60px;
+}
+
+.jobs-list-container .job:hover{
+  transform: scale(1.03);
+}
+
+.jobs-list-container .open-positions{
+  position: absolute;
+  bottom: 10px;
+  right: 25px;
+  color: #4F6466;
+  font-size: 12px;
+}
+
+.jobs-list-container .job-title{
+  font-size: 20px;
+  padding: 5px 0;
+  margin: 0;
+  color: #22C7B8;
+}
+
+.jobs-list-container .details{
+  margin-top: 3px;
+  font-size: 14px;
+  color: #4F6466;
+  line-height: 1.8;
+  flex: 1 ;
+}
+
+.jobs-list-container .details-btn{
+  text-decoration: none;
+  border: 1px solid #22C7B8;
+  color:#4F6466;
+  padding: 4px 8px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 20px;
+  transition: all 400ms ease;
+}
+
+.jobs-list-container .details-btn:hover{
+  background: #22C7B8;
+  color: #ffffff;
+}
+
+@media (max-width:940px){
+
+  .jobs-list-container .jobs{
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+
+@media (max-width:640px){
+
+  .jobs-list-container .jobs{
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+}
+
+.countact-box{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+
+.container{
+  width:80%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+
+}
+
+.container h1{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #22C7B8;
+}
+
+.formdeco{
+  display: block;
+  width:97%;
+  padding:10px 2%;
+  border-width:0;
+  margin-bottom:10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+
+}
+input[type=text]{
+   width: calc(100% - 20px);
+}
+.formdeco:focus{
+  outline: none;
+  box-shadow: 0 0 5px #e0e0e0;
+}
+
+form button{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #22C7B8;
+  border-radius: 5px;
+  color: #22C7B8;
+  cursor: pointer;
+  transition: 0.3s ease;
+  background-color: #fff;
+
+}
+
+form button:hover{
+  background-color: #22C7B8;
+  color: #ffffff;
+}
+
+.sub-header-contact{
+  height:20vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(PIC/About-BG.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+
+}

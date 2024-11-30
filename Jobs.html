@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>OrthoCare Hospital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/f12438cf9f.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+        <section class="sub-header">
+        <nav>
+            <a herf="index.html"><img src="Logo/logo1.png" alt=""> </a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Services.html">SERVICES</a></li>
+                    <li><a href="Jobs.html">JOPS</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Jobs</h1>
+
+        </section>
+
+<!------Jobs------>
+
+        <div class="jobs-list-container">
+          <h2> 5 jobs </h2>
+          <div class="jobs">
+
+            <!------Job1------>
+            <div class="job">
+
+              <h3 class="job-title">Registered Nurse (RN)</h3>
+              <div class="details">
+                Providing patient care, administering
+                medications, and monitoring vital signs.
+              </div>
+              <a href="#" class="details-btn"> More Details </a>
+
+              <span class="open-positions">3 open positions</span>
+            </div>
+
+            <!------Job2------>
+            <div class="job">
+
+              <h3 class="job-title">Physician/Doctor</h3>
+              <div class="details">
+                Diagnosing and treating patients,
+                specializing in various medical fields.
+              </div>
+              <a href="#" class="details-btn"> More Details </a>
+              <span class="open-positions">1 open positions</span>
+            </div>
+
+            <!------Job3------>
+            <div class="job">
+
+              <h3 class="job-title">Medical Technician</h3>
+              <div class="details">
+                Operating and maintaining diagnostic
+                equipment, such as X-rays and lab tests.
+              </div>
+              <a href="#" class="details-btn"> More Details </a>
+              <span class="open-positions">2 open positions</span>
+            </div>
+
+            <!------Job4------>
+            <div class="job">
+              <h3 class="job-title">Patient Care Assistant (PCA)</h3>
+              <div class="details">
+                Assisting patients with daily activities and ensuring comfort.
+              </div>
+              <a href="#" class="details-btn"> More Details </a>
+              <span class="open-positions">4 open positions</span>
+            </div>
+
+            <!------Job5------>
+            <div class="job">
+              <h3 class="job-title">Hospital Administrator</h3>
+              <div class="details">
+                Managing hospital operations, staff, and budgets.
+              </div>
+              <a href="#" class="details-btn"> More Details </a>
+              <span class="open-positions">3 open positions</span>
+            </div>
+
+            <!------Job6------>
+            <div class="job">
+              <h3 class="job-title">Pharmacist</h3>
+              <div class="details">
+                Preparing and dispensing medications while advising on their safe use.
+              </div>
+              <a href="#" class="details-btn"> More Details </a>
+              <span class="open-positions">1 open positions</span>
+            </div>
+          </div>
+        </div>
+
+<!-----Footer---->
+        <section class="Footer">
+
+            <p>Location: 123 Health Ave, Wellness City, HC 45678 <br> Contact Us: Phone: 1-800-ORTHOCARE Email: info@orthocarehospital.com</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+
+            <p class="add">Made with Rasha <i class="fa-solid fa-heart"></i> </p>
+
+        </section>
+
+
+<!-----JavaScript for Toggle Menu----->
+<script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.display="block";
+        }
+        function hideMenu(){
+            navlinks.style.display="none";
+        }
+
+        </script>
+
+    </body>
+</html>
